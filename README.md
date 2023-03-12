@@ -19,4 +19,4 @@ Run the file streams.pnyb final part. Add user input and you should see similar 
 ![image](https://user-images.githubusercontent.com/46755670/224536590-bbe76d52-4356-4b0c-a0c0-e3aefbeb178b.png)
 
 ## Suggestions and improvements
-Feel free to fork and further improve the code as per the license. For example you can further improve the ChatML to ensure the flow follows desired "system" rules. I left these empty now to make this basic script very generic. See as well [my article](https://tmmtt.medium.com/how-to-stream-chatgpt-api-responses-b783f1e5f13d) in Medium.
+Feel free to fork and further improve the code as per the license. For example you can further improve the ChatML to ensure the flow follows desired "system" rules. I left these empty now to make this basic script very generic. See as well [my article](https://tmmtt.medium.com/how-to-stream-chatgpt-api-responses-b783f1e5f13d) in Medium related to Streaming, [ChatML](https://tmmtt.medium.com/chat-markup-language-chatml-35767c2c69a1) and [ChatGPT API](https://tmmtt.medium.com/chatgpt-api-tutorial-3da433eb041e).
