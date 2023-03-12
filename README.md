@@ -16,4 +16,5 @@ Run the file streams.ipnyb second part. Add user input and you should see simila
 Run the file streams.pnyb final part. Add user input and you should see similar to below:
 ![image](https://user-images.githubusercontent.com/46755670/224536590-bbe76d52-4356-4b0c-a0c0-e3aefbeb178b.png)
 
-
+## Suggestions and improvements
+Feel free to fork and further improve the code as per the license. For example you can further improve the ChatML to ensure the flow follows desired "system" rules.
