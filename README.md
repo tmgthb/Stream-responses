@@ -3,8 +3,16 @@ The code is to demonstrate usage of streaming with ChatGPT API model and I wrote
 
 ## Pre-requisites:
 The approach uses only openai and time libraries and re-prints the streams using print(end='', flush=True):
-![image](https://user-images.githubusercontent.com/46755670/224536896-19780308-1893-447e-a58b-8970a659eb5c.png)
 
+```
+
+!pip install --upgrade openai
+import openai
+import time
+openai.api_key = user_secrets.get_secret("OPENAI_API_KEY")
+startime = time.time()
+
+```
 Disclaimer: The downside of streaming in production usage is the control of appropiate usage policy: https://beta.openai.com/docs/usage-guidelines, which should be reviewed in advance for each application, so I suggest to take a look this policy prior deciding to use streaming. 
 
 ## How to stream GPT-4 API model (gpt-4 or gpt-4-32k & gpt-4-32k-0314) responses? 
