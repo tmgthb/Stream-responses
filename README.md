@@ -1,4 +1,4 @@
-# Stream OPENAI API responses for ChatGPT API & InstructGPT models
+# Stream GPT-4, ChatGPT and GPT-3.5 responses (OPENAI API)
 The code is to demonstrate usage of streaming with ChatGPT API model and I wrote comparable code using the current InstructGPT model. 
 
 ## Pre-requisites:
