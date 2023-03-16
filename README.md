@@ -5,13 +5,11 @@ The code is to demonstrate usage of streaming with ChatGPT API model and I wrote
 The approach uses only openai and time libraries and re-prints the streams using print(end='', flush=True):
 
 ```
-
 !pip install --upgrade openai
 import openai
 import time
 openai.api_key = user_secrets.get_secret("OPENAI_API_KEY")
 startime = time.time()
-
 ```
 Disclaimer: The downside of streaming in production usage is the control of appropiate usage policy: https://beta.openai.com/docs/usage-guidelines, which should be reviewed in advance for each application, so I suggest to take a look this policy prior deciding to use streaming. 
 
@@ -88,8 +86,7 @@ for event in response:
     time.sleep(delay_time)
 ```
 
-
-There is no need to print the final empty string through the print().
+![image](https://user-images.githubusercontent.com/46755670/225769321-0a361329-3a2e-469a-b6b8-057d121c3179.png)
 
 
 ## How to stream InstructGPT API model (text-davinci-003) responses? 
