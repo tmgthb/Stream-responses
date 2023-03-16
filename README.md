@@ -1,5 +1,5 @@
 # Stream GPT-4, ChatGPT and GPT-3.5 responses (OPENAI API)
-The code is to demonstrate usage of streaming with ChatGPT API model and I wrote comparable code using the current InstructGPT model. 
+The code is to demonstrate usage of streaming with GPT-4 API, ChatGPT API and InstructGPT (GPT-3.5.) models.
 
 ## Pre-requisites:
 The approach uses only openai and time libraries and re-prints the streams using print(end='', flush=True):
