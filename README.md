@@ -124,7 +124,10 @@ for event in response:
 
 
 ## How to create Streamlit app with OpenAI API?
-I add a working "app_streamlit.py"-file, which you can fork to your repository with the "requirements.txt" and deploy it in Streamlit. In the advanced settings, add the OPENAI_API_KEY-variable using format: OPENAI_API_KEY = "INSERT HERE YOUR KEY"
+I add a working "app_streamlit.py"-file, which you can fork to your repository with the "requirements.txt" and deploy it in Streamlit. In the advanced settings, add the OPENAI_API_KEY-variable using format: 
+```
+OPENAI_API_KEY = "INSERT HERE YOUR KEY"
+```
 
 ![image](https://user-images.githubusercontent.com/46755670/230953129-51775d7d-9585-4e1a-bdcb-9a32a23421c4.png)
 
