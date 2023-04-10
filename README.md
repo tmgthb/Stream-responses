@@ -1,5 +1,5 @@
 # Stream GPT-4, ChatGPT and GPT-3.5 responses & Deploy Streamlit apps
-The code is to demonstrate usage of streaming with GPT-4 API, ChatGPT API and InstructGPT (GPT-3.5.) models.
+The code is to demonstrate usage of streaming with GPT-4 API, ChatGPT API and InstructGPT (GPT-3.5.) models. See as well Streamlit-app.
 
 ## Pre-requisites:
 The approach uses only openai and time libraries and re-prints the streams using print(end='', flush=True):
