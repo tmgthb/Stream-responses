@@ -1,4 +1,4 @@
-# Stream GPT-4, ChatGPT and GPT-3.5 responses (OPENAI API)
+# Stream GPT-4, ChatGPT and GPT-3.5 responses & Deploy Streamlit app with OPENAI API
 The code is to demonstrate usage of streaming with GPT-4 API, ChatGPT API and InstructGPT (GPT-3.5.) models.
 
 ## Pre-requisites:
