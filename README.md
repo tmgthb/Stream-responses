@@ -122,5 +122,12 @@ for event in response:
 
 ![image](https://user-images.githubusercontent.com/46755670/224536590-bbe76d52-4356-4b0c-a0c0-e3aefbeb178b.png)
 
+
+## How to create Streamlit app with OpenAI API?
+I add a working "app_streamlit.py"-file, which you can fork to your repository with the "requirements.txt" and deploy it in Streamlit. In the advanced settings, add the OPENAI_API_KEY-variable using format: OPENAI_API_KEY = "INSERT HERE YOUR KEY"
+![image](https://user-images.githubusercontent.com/46755670/230953129-51775d7d-9585-4e1a-bdcb-9a32a23421c4.png)
+
+
+
 ## Suggestions and improvements
 Feel free to fork and further improve the code as per the license. For example you can further improve the ChatML to ensure the flow follows desired "system" rules. I left these empty now to make this basic script very generic. I recommend to check my articles specific to ChatGPT API about [streaming responses](https://tmmtt.medium.com/how-to-stream-chatgpt-api-responses-b783f1e5f13d) in Medium related to Streaming, [ChatML: guiding prompts with system, assistant and user roles](https://tmmtt.medium.com/chat-markup-language-chatml-35767c2c69a1) and [ChatGPT API introduction tutorial](https://tmmtt.medium.com/chatgpt-api-tutorial-3da433eb041e). 
