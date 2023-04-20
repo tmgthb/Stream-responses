@@ -1,3 +1,11 @@
+<div align="center"> 
+  
+[![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/PromptGPT?style=social)](https://github.com/tmgthb/Stream-responses/stargazers) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt13?style=social)](https://twitter.com/Teemumtt13)
+![Profile views](https://komarev.com/ghpvc/?username=tmgthb&color=blue)
+
+</div>  
+
 # Stream GPT-4, ChatGPT and GPT-3.5 responses & Deploy Streamlit apps
 The code is to demonstrate usage of streaming with GPT-4 API, ChatGPT API and InstructGPT (GPT-3.5.) models & Streamlit-app.
 
