@@ -1,7 +1,7 @@
 <div align="center"> 
   
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/PromptGPT?style=social)](https://github.com/tmgthb/Stream-responses/stargazers) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt13?style=social)](https://twitter.com/Teemumtt13)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
 
 </div>  
 
