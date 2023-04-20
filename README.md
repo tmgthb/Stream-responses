@@ -2,7 +2,6 @@
   
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/PromptGPT?style=social)](https://github.com/tmgthb/Stream-responses/stargazers) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt13?style=social)](https://twitter.com/Teemumtt13)
-![Profile views](https://komarev.com/ghpvc/?username=tmgthb&color=blue)
 
 </div>  
 
