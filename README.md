@@ -12,6 +12,7 @@ The code is to demonstrate usage of streaming with GPT-4 API, ChatGPT API and In
 The approach uses only openai and time libraries and re-prints the streams using print(end='', flush=True):
 
 ```python
+
 !pip install --upgrade openai
 import openai
 import time
