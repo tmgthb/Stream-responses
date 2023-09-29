@@ -11,7 +11,8 @@ The code is to demonstrate usage of streaming with GPT-4 API, ChatGPT API and In
 ## Pre-requisites:
 The approach uses only openai and time libraries and re-prints the streams using print(end='', flush=True):
 
-```
+```python
+
 !pip install --upgrade openai
 import openai
 import time
@@ -24,7 +25,7 @@ Disclaimer: The downside of streaming in production usage is the control of appr
 
 Run the file streams.ipnyb first part. 
 
-```
+```python
 ### STREAM GPT-4 API RESPONSES
 delay_time = 0.01 #  faster
 max_response_length = 8000
@@ -63,7 +64,7 @@ After inserting the user input and pressing enter, you should see the output pri
 
 ## How to stream ChatGPT API model (gpt-3.5-turbo) responses? 
 Run the file streams.ipnyb second part. Add user input and you should see similar to below:
-```
+```python
 ### STREAM CHATGPT API RESPONSES
 delay_time = 0.01 #  faster
 max_response_length = 200
@@ -100,7 +101,7 @@ for event in response:
 Run the file streams.pnyb third part. Add user input and you should see similar to below:
 
 
-```
+```python
 collected_events = []
 completion_text = []
 speed = 0.05 #smaller is faster
@@ -136,7 +137,7 @@ I add a working "app_streamlit.py"-file, which you can fork to your repository w
 ![image](https://user-images.githubusercontent.com/46755670/230953129-51775d7d-9585-4e1a-bdcb-9a32a23421c4.png)
 
 In the advanced settings, add the OPENAI_API_KEY-variable using format: 
-```
+```python
 OPENAI_API_KEY = "INSERT HERE YOUR KEY"
 ```
 
